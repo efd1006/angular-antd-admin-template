@@ -9,9 +9,6 @@ export class LayoutComponent implements OnInit {
 
   isCollapsed = false;
   
-  // get this form a global service and has to be observable
-  $loading: boolean = false
-
   constructor() { }
 
   ngOnInit(): void {
